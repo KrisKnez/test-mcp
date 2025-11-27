@@ -16,6 +16,7 @@
     }
   },
   "scripts": {
+    "postinstall": "pnpm run build",
     "build": "tsc",
     "dev": "mcp-inspector tsx src/index.ts"
   },
