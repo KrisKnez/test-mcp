@@ -10,9 +10,9 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./sdk": {
-      "import": "./dist/re-exports/sdk/index.js",
-      "types": "./dist/re-exports/sdk/index.d.ts"
+    "./transports": {
+      "import": "./dist/transports.js",
+      "types": "./dist/transports.d.ts"
     }
   },
   "scripts": {

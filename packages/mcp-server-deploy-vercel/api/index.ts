@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { createMCPServer } from "@mcp-test/mcp-server";
-import { SSEServerTransport } from "@mcp-test/mcp-server/sdk";
+import { SSEServerTransport } from "@mcp-test/mcp-server/transports";
 
 const server = createMCPServer();
 const transports: { [sessionId: string]: SSEServerTransport } = {};
