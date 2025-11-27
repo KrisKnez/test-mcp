@@ -1,0 +1,9 @@
+{
+  "name": "test-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server monorepo",
+  "engines": {
+    "node": ">=18"
+  }
+}
